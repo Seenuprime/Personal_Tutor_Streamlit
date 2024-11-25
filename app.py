@@ -100,6 +100,6 @@ elif model_choice == 'In-Depth Model':
         st.session_state.in_depth_model_response = response.content 
     st.write(st.session_state.in_depth_model_response)
 
-if st.sidebar.button('Clear Answer'):
+if st.sidebar.button('Clear'):
     st.session_state.topic_model_response = ''
     st.session_state.in_depth_model_response = ''
